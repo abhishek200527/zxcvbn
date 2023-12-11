@@ -6,7 +6,7 @@ print("Time taken  to vectorized sum:")
 t=0
 for i in range(0,4):
     t+=i
-a=t
+a=1
 print("\n"+str(a))
 print("Time Taken by iterative sum:",end="")
 %timeit a
